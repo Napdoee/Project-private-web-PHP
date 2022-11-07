@@ -1,0 +1,19 @@
+<?php
+	session_start();
+	include "partials/links.php";
+    include "partials/theme.php";
+    include "partials/users.php";
+	include "database.php";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello there !</title>
+</head>
+<body class="<?php echo $theme; ?>">
+    <?php include "partials/navbar.php" ?>
+    <div id="main" class="main">
+        Hello There!
+    </div>
+</body>
+</html>
